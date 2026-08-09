@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sản phẩm - Fashion Store</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container navbar">
+
+            <a href="index.html" class="logo">
+                FASHION<span>.</span>
+            </a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">Sản phẩm</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Bộ sưu tập</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Giới thiệu</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="icons">
+                <span>🛒</span>
+                <span>👤</span>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- BREADCRUMB -->
+    <section class="breadcrumb-section">
+
+        <div class="container">
+
+            <div class="breadcrumb">
+                <a href="index.html">Trang chủ</a>
+                <span>/</span>
+                <span>Sản phẩm</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCT PAGE -->
+    <main class="product-page">
+
+        <div class="container">
+
+            <!-- TITLE -->
+            <div class="product-heading">
+
+                <div>
+                    <h1>Sản phẩm</h1>
+
+                    <p>
+                        Khám phá những sản phẩm thời trang mới nhất
+                    </p>
+                </div>
+
+                <select class="sort-select">
+                    <option>Sắp xếp mặc định</option>
+                    <option>Giá: Thấp đến cao</option>
+                    <option>Giá: Cao đến thấp</option>
+                    <option>Sản phẩm mới nhất</option>
+                </select>
+
+            </div>
+
+
+            <div class="product-layout">
+
+                <!-- SIDEBAR -->
+                <aside class="filter-sidebar">
+
+                    <h3>Danh mục</h3>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Áo
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Quần
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Váy
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Áo khoác
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Giày
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Phụ kiện
+                    </label>
+
+
+                    <div class="filter-line"></div>
+
+
+                    <h3>Khoảng giá</h3>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Dưới 500.000đ
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        500.000đ - 1.000.000đ
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        1.000.000đ - 2.000.000đ
+                    </label>
+
+                    <label class="filter-item">
+                        <input type="checkbox">
+                        Trên 2.000.000đ
+                    </label>
+
+
+                    <div class="filter-line"></div>
+
+
+                    <h3>Kích thước</h3>
+
+                    <div class="size-filter">
+
+                        <button>S</button>
+                        <button>M</button>
+                        <button>L</button>
+                        <button>XL</button>
+
+                    </div>
+
+                </aside>
+
+
+                <!-- PRODUCTS -->
+                <section class="product-content">
+
+                    <div class="product-count">
+                        Hiển thị 12 sản phẩm
+                    </div>
+
+
+                    <div class="product-grid">
+
+                        <!-- PRODUCT 1 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <span class="product-badge">
+                                    Mới
+                                </span>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+                                    alt="Áo thun basic"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Áo
+                                </p>
+
+                                <h3>
+                                    Áo thun Basic
+                                </h3>
+
+                                <div class="product-price">
+                                    390.000đ
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 2 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=800&q=80"
+                                    alt="Áo sơ mi"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Áo
+                                </p>
+
+                                <h3>
+                                    Áo sơ mi Oversize
+                                </h3>
+
+                                <div class="product-price">
+                                    650.000đ
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 3 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <span class="product-badge sale">
+                                    -20%
+                                </span>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80"
+                                    alt="Quần Jeans"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Quần
+                                </p>
+
+                                <h3>
+                                    Quần Jeans Classic
+                                </h3>
+
+                                <div class="product-price">
+
+                                    720.000đ
+
+                                    <del>
+                                        900.000đ
+                                    </del>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 4 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80"
+                                    alt="Váy nữ"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Váy
+                                </p>
+
+                                <h3>
+                                    Váy Midi thanh lịch
+                                </h3>
+
+                                <div class="product-price">
+                                    890.000đ
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 5 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <span class="product-badge">
+                                    Mới
+                                </span>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80"
+                                    alt="Áo khoác"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Áo khoác
+                                </p>
+
+                                <h3>
+                                    Áo khoác Leather
+                                </h3>
+
+                                <div class="product-price">
+                                    1.490.000đ
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 6 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+                                    alt="Sneaker"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Giày
+                                </p>
+
+                                <h3>
+                                    Sneaker Classic
+                                </h3>
+
+                                <div class="product-price">
+                                    1.290.000đ
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 7 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1551489186-cf8726f514f8?auto=format&fit=crop&w=800&q=80"
+                                    alt="Áo Hoodie"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Áo
+                                </p>
+
+                                <h3>
+                                    Hoodie Premium
+                                </h3>
+
+                                <div class="product-price">
+                                    790.000đ
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- PRODUCT 8 -->
+                        <div class="product-card">
+
+                            <div class="product-image">
+
+                                <span class="product-badge sale">
+                                    -15%
+                                </span>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=800&q=80"
+                                    alt="Quần nữ"
+                                >
+
+                                <button class="quick-cart">
+                                    🛒
+                                </button>
+
+                            </div>
+
+                            <div class="product-info">
+
+                                <p class="product-category">
+                                    Quần
+                                </p>
+
+                                <h3>
+                                    Quần Wide Leg
+                                </h3>
+
+                                <div class="product-price">
+
+                                    680.000đ
+
+                                    <del>
+                                        800.000đ
+                                    </del>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- PAGINATION -->
+                    <div class="pagination">
+
+                        <button class="active">
+                            1
+                        </button>
+
+                        <button>
+                            2
+                        </button>
+
+                        <button>
+                            3
+                        </button>
+
+                        <button>
+                            →
+                        </button>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer">
+
+            <div>
+                <h3>Fashion Store</h3>
+
+                <p>
+                    Thời trang dành cho mọi phong cách.
+                </p>
+            </div>
+
+            <div>
+                <h3>Liên hệ</h3>
+
+                <p>
+                    Email: fashion@gmail.com
+                </p>
+
+                <p>
+                    Hotline: 0123 456 789
+                </p>
+            </div>
+
+            <div>
+                <h3>Theo dõi</h3>
+
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>TikTok</p>
+            </div>
+
+        </div>
+
+        <div class="copy">
+            © 2026 Fashion Store. All Rights Reserved.
+        </div>
+
+    </footer>
+
+</body>
+</html>
