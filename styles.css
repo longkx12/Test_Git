@@ -1965,3 +1965,435 @@ margin-bottom: 30px;
 ```
 
 }
+
+/* =========================================
+   LOGIN PAGE
+========================================= */
+
+
+/* AUTH PAGE */
+
+.auth-page {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, .45),
+            rgba(0, 0, 0, .45)
+        ),
+        url("https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=80");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+}
+
+
+/* AUTH HEADER */
+
+.auth-header {
+    background: white;
+
+    box-shadow:
+        0 2px 10px rgba(0, 0, 0, .08);
+}
+
+.auth-navbar {
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.back-home {
+    color: #555;
+
+    font-size: 14px;
+
+    transition: .3s;
+}
+
+.back-home:hover {
+    color: #ff4d4d;
+}
+
+
+/* AUTH MAIN */
+
+.auth-main {
+    min-height: calc(100vh - 75px);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 50px 20px;
+}
+
+
+/* LOGIN CONTAINER */
+
+.login-container {
+    width: 100%;
+
+    max-width: 450px;
+}
+
+
+/* LOGIN CARD */
+
+.login-card {
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 15px 50px rgba(0, 0, 0, .2);
+}
+
+
+/* HEADING */
+
+.login-heading {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.login-heading h1 {
+    font-size: 30px;
+
+    margin-bottom: 8px;
+}
+
+.login-heading p {
+    color: #888;
+
+    font-size: 14px;
+}
+
+
+/* FORM */
+
+.login-form {
+    width: 100%;
+}
+
+
+/* PASSWORD LABEL */
+
+.password-label {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.password-label label {
+    margin-bottom: 0 !important;
+}
+
+.password-label a {
+    color: #666;
+
+    font-size: 12px;
+}
+
+.password-label a:hover {
+    color: #ff4d4d;
+}
+
+
+/* PASSWORD */
+
+.password-input {
+    position: relative;
+}
+
+.password-input input {
+    padding-right: 50px;
+}
+
+.show-password {
+    position: absolute;
+
+    right: 5px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    opacity: .6;
+}
+
+.show-password:hover {
+    opacity: 1;
+}
+
+
+/* REMEMBER */
+
+.remember-row {
+    margin-top: -5px;
+
+    margin-bottom: 22px;
+}
+
+.remember {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #666;
+
+    font-size: 13px;
+
+    cursor: pointer;
+}
+
+.remember input {
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+}
+
+
+/* LOGIN BUTTON */
+
+.login-button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #111;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.login-button:hover {
+    background: #ff4d4d;
+}
+
+
+/* DIVIDER */
+
+.auth-divider {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 30px 0;
+}
+
+.auth-divider span {
+    flex: 1;
+
+    height: 1px;
+
+    background: #eee;
+}
+
+.auth-divider p {
+    color: #999;
+
+    font-size: 12px;
+
+    white-space: nowrap;
+}
+
+
+/* SOCIAL LOGIN */
+
+.social-login {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+}
+
+.social-button {
+    height: 45px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+    background: white;
+
+    color: #444;
+
+    font-family: inherit;
+
+    font-size: 13px;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.social-button:hover {
+    background: #f7f7f7;
+
+    border-color: #bbb;
+}
+
+
+/* SOCIAL ICON */
+
+.google-icon {
+    color: #4285f4;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #1877f2;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    font-weight: bold;
+
+    font-size: 15px;
+}
+
+
+/* REGISTER */
+
+.register-link {
+    text-align: center;
+
+    margin-top: 30px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid #eee;
+}
+
+.register-link p {
+    color: #777;
+
+    font-size: 13px;
+}
+
+.register-link a {
+    color: #111;
+
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    color: #ff4d4d;
+}
+
+
+/* AUTH FOOTER */
+
+.auth-footer {
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.auth-footer p {
+    color: white;
+
+    font-size: 12px;
+
+    opacity: .8;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 500px) {
+
+    .auth-navbar {
+        height: 65px;
+    }
+
+    .auth-main {
+        min-height: calc(100vh - 65px);
+
+        padding: 30px 15px;
+    }
+
+    .login-card {
+        padding: 35px 25px;
+    }
+
+    .login-heading h1 {
+        font-size: 26px;
+    }
+
+    .social-login {
+        grid-template-columns: 1fr;
+    }
+
+    .back-home {
+        font-size: 13px;
+    }
+
+}
