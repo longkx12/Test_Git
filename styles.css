@@ -2397,3 +2397,93 @@ margin-bottom: 30px;
     }
 
 }
+
+/* =========================================
+   REGISTER PAGE
+========================================= */
+
+
+/* REGISTER MAIN */
+
+.register-main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* REGISTER CARD */
+
+.register-card {
+    max-width: 450px;
+}
+
+
+/* REGISTER TERMS */
+
+.register-terms {
+    margin-top: -5px;
+
+    margin-bottom: 22px;
+}
+
+.register-terms label {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 9px;
+
+    color: #777;
+
+    font-size: 12px;
+
+    line-height: 1.7;
+
+    cursor: pointer;
+}
+
+.register-terms input {
+    width: 15px;
+    height: 15px;
+
+    flex-shrink: 0;
+
+    margin-top: 3px;
+
+    cursor: pointer;
+}
+
+.register-terms a {
+    color: #111;
+
+    font-weight: 500;
+
+    text-decoration: underline;
+}
+
+.register-terms a:hover {
+    color: #ff4d4d;
+}
+
+
+/* REGISTER INPUT */
+
+.register-card .form-group {
+    margin-bottom: 18px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+    .register-main {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .register-card {
+        padding: 30px 22px;
+    }
+
+}
