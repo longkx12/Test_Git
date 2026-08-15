@@ -2487,3 +2487,93 @@ margin-bottom: 30px;
     }
 
 }
+
+/* =========================================
+   FORGOT PASSWORD PAGE
+========================================= */
+
+
+/* FORGOT CARD */
+
+.forgot-card {
+    max-width: 450px;
+}
+
+
+/* FORGOT ICON */
+
+.forgot-icon {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 25px;
+
+    border-radius: 50%;
+
+    background: #f5f5f5;
+
+    font-size: 30px;
+}
+
+
+/* FORGOT HEADING */
+
+.forgot-card .login-heading {
+    margin-bottom: 30px;
+}
+
+.forgot-card .login-heading h1 {
+    margin-bottom: 12px;
+}
+
+.forgot-card .login-heading p {
+    max-width: 350px;
+
+    margin: 0 auto;
+
+    line-height: 1.8;
+}
+
+
+/* BACK TO LOGIN */
+
+.back-login {
+    text-align: center;
+
+    margin-top: 25px;
+}
+
+.back-login a {
+    color: #555;
+
+    font-size: 13px;
+
+    transition: .3s;
+}
+
+.back-login a:hover {
+    color: #ff4d4d;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+    .forgot-card {
+        padding: 35px 25px;
+    }
+
+    .forgot-icon {
+        width: 60px;
+        height: 60px;
+
+        font-size: 25px;
+    }
+
+}
