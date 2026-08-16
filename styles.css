@@ -2577,3 +2577,85 @@ margin-bottom: 30px;
     }
 
 }
+
+/* =========================================
+   RESET PASSWORD PAGE
+========================================= */
+
+
+/* RESET CARD */
+
+.reset-card {
+    max-width: 450px;
+}
+
+
+/* RESET HEADING */
+
+.reset-card .login-heading {
+    margin-bottom: 30px;
+}
+
+.reset-card .login-heading p {
+    max-width: 360px;
+
+    margin: 0 auto;
+
+    line-height: 1.8;
+}
+
+
+/* PASSWORD REQUIREMENTS */
+
+.password-requirements {
+
+    margin-top: -5px;
+
+    margin-bottom: 25px;
+
+    padding: 15px 18px;
+
+    background: #f7f7f7;
+
+    border-radius: 6px;
+
+    font-size: 12px;
+
+    color: #777;
+}
+
+.password-requirements p {
+
+    margin-bottom: 7px;
+
+    font-weight: 500;
+
+    color: #555;
+}
+
+.password-requirements ul {
+
+    margin: 0;
+
+    padding-left: 18px;
+}
+
+.password-requirements li {
+
+    margin-bottom: 3px;
+
+    line-height: 1.6;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+    .reset-card {
+
+        padding: 35px 25px;
+
+    }
+
+}
