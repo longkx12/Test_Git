@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Chi tiết sản phẩm - Fashion Store</title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container navbar">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo"
+            >
+                FASHION<span>.</span>
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Sản phẩm
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="collection.html">
+                            Bộ sưu tập
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            Giới thiệu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Liên hệ
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- ICONS -->
+
+            <div class="icons">
+
+                <a href="#">
+                    🛒
+                </a>
+
+                <a href="user.html">
+                    👤
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- BREADCRUMB -->
+
+    <section class="breadcrumb-section">
+
+        <div class="container">
+
+            <div class="breadcrumb">
+
+                <a href="index.html">
+                    Trang chủ
+                </a>
+
+                <span>
+                    /
+                </span>
+
+                <a href="products.html">
+                    Sản phẩm
+                </a>
+
+                <span>
+                    /
+                </span>
+
+                <span>
+                    Áo Hoodie
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCT DETAIL -->
+
+    <main class="product-detail-section">
+
+        <div class="container">
+
+            <div class="product-detail">
+
+
+                <!-- PRODUCT IMAGES -->
+
+                <div class="product-gallery">
+
+
+                    <!-- MAIN IMAGE -->
+
+                    <div class="main-product-image">
+
+                        <img
+                            id="mainProductImage"
+                            src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=1000&q=80"
+                            alt="Áo Hoodie"
+                        >
+
+                    </div>
+
+
+                    <!-- THUMBNAILS -->
+
+                    <div class="product-thumbnails">
+
+
+                        <button
+                            class="thumbnail active"
+                            onclick="changeImage(this)"
+                        >
+
+                            <img
+                                src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=300&q=80"
+                                alt="Áo Hoodie"
+                            >
+
+                        </button>
+
+
+                        <button
+                            class="thumbnail"
+                            onclick="changeImage(this)"
+                        >
+
+                            <img
+                                src="https://images.unsplash.com/photo-1509942774463-acf339cf87d5?auto=format&fit=crop&w=300&q=80"
+                                alt="Áo Hoodie"
+                            >
+
+                        </button>
+
+
+                        <button
+                            class="thumbnail"
+                            onclick="changeImage(this)"
+                        >
+
+                            <img
+                                src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=300&q=80"
+                                alt="Áo Hoodie"
+                            >
+
+                        </button>
+
+
+                        <button
+                            class="thumbnail"
+                            onclick="changeImage(this)"
+                        >
+
+                            <img
+                                src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?auto=format&fit=crop&w=300&q=80"
+                                alt="Áo Hoodie"
+                            >
+
+                        </button>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT INFORMATION -->
+
+                <div class="product-detail-info">
+
+
+                    <!-- CATEGORY -->
+
+                    <div class="product-category">
+                        ÁO NAM
+                    </div>
+
+
+                    <!-- TITLE -->
+
+                    <h1>
+                        Áo Hoodie Basic Premium
+                    </h1>
+
+
+                    <!-- RATING -->
+
+                    <div class="product-rating">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <span>
+                            4.9
+                        </span>
+
+                        <span class="rating-separator">
+                            |
+                        </span>
+
+                        <span>
+                            128 đánh giá
+                        </span>
+
+                    </div>
+
+
+                    <!-- PRICE -->
+
+                    <div class="product-detail-price">
+
+                        <span class="current-price">
+                            590.000đ
+                        </span>
+
+                        <span class="old-price">
+                            790.000đ
+                        </span>
+
+                        <span class="discount">
+                            -25%
+                        </span>
+
+                    </div>
+
+
+                    <!-- DESCRIPTION -->
+
+                    <div class="product-description">
+
+                        <p>
+                            Áo Hoodie Basic Premium được thiết kế
+                            theo phong cách tối giản, hiện đại và
+                            trẻ trung. Chất liệu cotton cao cấp,
+                            mềm mại và thoáng mát, phù hợp để mặc
+                            hàng ngày.
+                        </p>
+
+                    </div>
+
+
+                    <!-- COLOR -->
+
+                    <div class="product-option">
+
+                        <div class="option-title">
+
+                            Màu sắc:
+
+                            <strong id="selectedColor">
+                                Đen
+                            </strong>
+
+                        </div>
+
+
+                        <div class="color-options">
+
+
+                            <button
+                                class="color-option black active"
+                                data-color="Đen"
+                                onclick="selectColor(this)"
+                            >
+                            </button>
+
+
+                            <button
+                                class="color-option white"
+                                data-color="Trắng"
+                                onclick="selectColor(this)"
+                            >
+                            </button>
+
+
+                            <button
+                                class="color-option gray"
+                                data-color="Xám"
+                                onclick="selectColor(this)"
+                            >
+                            </button>
+
+
+                            <button
+                                class="color-option beige"
+                                data-color="Be"
+                                onclick="selectColor(this)"
+                            >
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SIZE -->
+
+                    <div class="product-option">
+
+                        <div class="option-title">
+
+                            Kích thước:
+
+                            <strong id="selectedSize">
+                                M
+                            </strong>
+
+                            <a href="#">
+                                Hướng dẫn chọn size
+                            </a>
+
+                        </div>
+
+
+                        <div class="size-options">
+
+
+                            <button
+                                class="size-option"
+                                onclick="selectSize(this)"
+                            >
+                                S
+                            </button>
+
+
+                            <button
+                                class="size-option active"
+                                onclick="selectSize(this)"
+                            >
+                                M
+                            </button>
+
+
+                            <button
+                                class="size-option"
+                                onclick="selectSize(this)"
+                            >
+                                L
+                            </button>
+
+
+                            <button
+                                class="size-option"
+                                onclick="selectSize(this)"
+                            >
+                                XL
+                            </button>
+
+
+                            <button
+                                class="size-option disabled"
+                                disabled
+                            >
+                                XXL
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- QUANTITY -->
+
+                    <div class="quantity-section">
+
+                        <span class="quantity-title">
+                            Số lượng:
+                        </span>
+
+
+                        <div class="quantity-control">
+
+                            <button
+                                type="button"
+                                onclick="decreaseQuantity()"
+                            >
+                                −
+                            </button>
+
+                            <input
+                                type="text"
+                                id="quantity"
+                                value="1"
+                                readonly
+                            >
+
+                            <button
+                                type="button"
+                                onclick="increaseQuantity()"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                        <span class="stock">
+                            Còn 15 sản phẩm
+                        </span>
+
+                    </div>
+
+
+                    <!-- BUTTONS -->
+
+                    <div class="product-actions">
+
+
+                        <button
+                            type="button"
+                            class="add-cart-button"
+                            onclick="addToCart()"
+                        >
+
+                            🛒
+
+                            Thêm vào giỏ
+
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="buy-now-button"
+                            onclick="buyNow()"
+                        >
+
+                            Mua ngay
+
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="wishlist-button"
+                            onclick="toggleWishlist(this)"
+                        >
+
+                            ♡
+
+                        </button>
+
+
+                    </div>
+
+
+                    <!-- PRODUCT FEATURES -->
+
+                    <div class="product-features">
+
+
+                        <div class="feature-item">
+
+                            <div class="feature-icon">
+                                🚚
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Miễn phí vận chuyển
+                                </strong>
+
+                                <p>
+                                    Cho đơn hàng từ 500.000đ
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="feature-item">
+
+                            <div class="feature-icon">
+                                ↩️
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Đổi trả dễ dàng
+                                </strong>
+
+                                <p>
+                                    Đổi trả trong vòng 7 ngày
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="feature-item">
+
+                            <div class="feature-icon">
+                                ✓
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Sản phẩm chính hãng
+                                </strong>
+
+                                <p>
+                                    Cam kết chất lượng sản phẩm
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- PRODUCT DESCRIPTION -->
+
+    <section class="section product-description-section">
+
+        <div class="container">
+
+
+            <div class="product-tabs">
+
+                <button
+                    class="product-tab active"
+                    onclick="openTab(event, 'description')"
+                >
+                    Mô tả sản phẩm
+                </button>
+
+                <button
+                    class="product-tab"
+                    onclick="openTab(event, 'details')"
+                >
+                    Chi tiết
+                </button>
+
+                <button
+                    class="product-tab"
+                    onclick="openTab(event, 'reviews')"
+                >
+                    Đánh giá
+                </button>
+
+            </div>
+
+
+            <!-- DESCRIPTION TAB -->
+
+            <div
+                id="description"
+                class="product-tab-content active"
+            >
+
+                <h3>
+                    Áo Hoodie Basic Premium
+                </h3>
+
+                <p>
+                    Sản phẩm được làm từ chất liệu cotton cao cấp,
+                    mang lại cảm giác mềm mại và thoải mái khi mặc.
+                    Thiết kế form basic dễ phối đồ, phù hợp với
+                    nhiều phong cách khác nhau.
+                </p>
+
+                <p>
+                    Bạn có thể kết hợp sản phẩm với quần jeans,
+                    quần jogger hoặc sneaker để tạo nên phong cách
+                    trẻ trung và năng động.
+                </p>
+
+            </div>
+
+
+            <!-- DETAILS TAB -->
+
+            <div
+                id="details"
+                class="product-tab-content"
+            >
+
+                <div class="detail-list">
+
+                    <div>
+                        <span>
+                            Chất liệu
+                        </span>
+
+                        <strong>
+                            Cotton Premium
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            Kiểu dáng
+                        </span>
+
+                        <strong>
+                            Regular Fit
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            Xuất xứ
+                        </span>
+
+                        <strong>
+                            Việt Nam
+                        </strong>
+                    </div>
+
+                    <div>
+                        <span>
+                            Thương hiệu
+                        </span>
+
+                        <strong>
+                            Fashion Store
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- REVIEWS TAB -->
+
+            <div
+                id="reviews"
+                class="product-tab-content"
+            >
+
+                <div class="review-summary">
+
+                    <div class="review-score">
+
+                        <strong>
+                            4.9
+                        </strong>
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <span>
+                            128 đánh giá
+                        </span>
+
+                    </div>
+
+
+                    <div class="review-bars">
+
+                        <div>
+                            <span>5 ★</span>
+                            <div class="review-bar">
+                                <span style="width: 90%;"></span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>4 ★</span>
+                            <div class="review-bar">
+                                <span style="width: 7%;"></span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>3 ★</span>
+                            <div class="review-bar">
+                                <span style="width: 2%;"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- RELATED PRODUCTS -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                Sản phẩm liên quan
+            </h2>
+
+
+            <div class="products">
+
+
+                <!-- PRODUCT -->
+
+                <div class="card">
+
+                    <a href="product-detail.html">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80"
+                            alt="Áo thun"
+                        >
+
+                    </a>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            Áo Thun Basic
+                        </div>
+
+                        <div class="price">
+                            390.000đ
+                        </div>
+
+                        <button class="buy">
+                            Thêm vào giỏ
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT -->
+
+                <div class="card">
+
+                    <a href="product-detail.html">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80"
+                            alt="Áo khoác"
+                        >
+
+                    </a>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            Áo Khoác Premium
+                        </div>
+
+                        <div class="price">
+                            890.000đ
+                        </div>
+
+                        <button class="buy">
+                            Thêm vào giỏ
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT -->
+
+                <div class="card">
+
+                    <a href="product-detail.html">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+                            alt="Sneaker"
+                        >
+
+                    </a>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            Sneaker Classic
+                        </div>
+
+                        <div class="price">
+                            1.290.000đ
+                        </div>
+
+                        <button class="buy">
+                            Thêm vào giỏ
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT -->
+
+                <div class="card">
+
+                    <a href="product-detail.html">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80"
+                            alt="Áo thun"
+                        >
+
+                    </a>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            Áo Thun Premium
+                        </div>
+
+                        <div class="price">
+                            450.000đ
+                        </div>
+
+                        <button class="buy">
+                            Thêm vào giỏ
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container footer">
+
+            <div>
+
+                <h3>
+                    Fashion Store
+                </h3>
+
+                <p>
+                    Thời trang dành cho mọi phong cách.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Liên hệ
+                </h3>
+
+                <p>
+                    Email: fashion@gmail.com
+                </p>
+
+                <p>
+                    Hotline: 0123 456 789
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Theo dõi
+                </h3>
+
+                <p>
+                    Facebook
+                </p>
+
+                <p>
+                    Instagram
+                </p>
+
+                <p>
+                    TikTok
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copy">
+
+            © 2026 Fashion Store. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+
+        /* ================================
+           CHANGE PRODUCT IMAGE
+        ================================= */
+
+        function changeImage(button) {
+
+            const image =
+                button.querySelector("img");
+
+            const mainImage =
+                document.getElementById(
+                    "mainProductImage"
+                );
+
+
+            mainImage.src =
+                image.src.replace(
+                    "w=300",
+                    "w=1000"
+                );
+
+
+            document
+                .querySelectorAll(".thumbnail")
+                .forEach(function (item) {
+
+                    item.classList.remove("active");
+
+                });
+
+
+            button.classList.add("active");
+
+        }
+
+
+        /* ================================
+           COLOR
+        ================================= */
+
+        function selectColor(button) {
+
+            document
+                .querySelectorAll(".color-option")
+                .forEach(function (item) {
+
+                    item.classList.remove("active");
+
+                });
+
+
+            button.classList.add("active");
+
+
+            document.getElementById(
+                "selectedColor"
+            ).textContent =
+                button.dataset.color;
+
+        }
+
+
+        /* ================================
+           SIZE
+        ================================= */
+
+        function selectSize(button) {
+
+            if (
+                button.classList.contains("disabled")
+            ) {
+                return;
+            }
+
+
+            document
+                .querySelectorAll(".size-option")
+                .forEach(function (item) {
+
+                    item.classList.remove("active");
+
+                });
+
+
+            button.classList.add("active");
+
+
+            document.getElementById(
+                "selectedSize"
+            ).textContent =
+                button.textContent.trim();
+
+        }
+
+
+        /* ================================
+           QUANTITY
+        ================================= */
+
+        function increaseQuantity() {
+
+            const input =
+                document.getElementById(
+                    "quantity"
+                );
+
+
+            let quantity =
+                parseInt(input.value);
+
+
+            if (quantity < 15) {
+
+                quantity++;
+
+                input.value = quantity;
+
+            }
+
+        }
+
+
+        function decreaseQuantity() {
+
+            const input =
+                document.getElementById(
+                    "quantity"
+                );
+
+
+            let quantity =
+                parseInt(input.value);
+
+
+            if (quantity > 1) {
+
+                quantity--;
+
+                input.value = quantity;
+
+            }
+
+        }
+
+
+        /* ================================
+           ADD TO CART
+        ================================= */
+
+        function addToCart() {
+
+            const quantity =
+                document.getElementById(
+                    "quantity"
+                ).value;
+
+
+            const color =
+                document.getElementById(
+                    "selectedColor"
+                ).textContent;
+
+
+            const size =
+                document.getElementById(
+                    "selectedSize"
+                ).textContent;
+
+
+            alert(
+                "Đã thêm " +
+                quantity +
+                " sản phẩm vào giỏ hàng!\n\n" +
+                "Màu: " +
+                color +
+                "\n" +
+                "Size: " +
+                size
+            );
+
+        }
+
+
+        /* ================================
+           BUY NOW
+        ================================= */
+
+        function buyNow() {
+
+            alert(
+                "Đang chuyển đến trang thanh toán..."
+            );
+
+        }
+
+
+        /* ================================
+           WISHLIST
+        ================================= */
+
+        function toggleWishlist(button) {
+
+            if (
+                button.classList.contains("liked")
+            ) {
+
+                button.classList.remove("liked");
+
+                button.textContent = "♡";
+
+            } else {
+
+                button.classList.add("liked");
+
+                button.textContent = "♥";
+
+            }
+
+        }
+
+
+        /* ================================
+           PRODUCT TABS
+        ================================= */
+
+        function openTab(event, tabId) {
+
+            document
+                .querySelectorAll(".product-tab-content")
+                .forEach(function (content) {
+
+                    content.classList.remove("active");
+
+                });
+
+
+            document
+                .querySelectorAll(".product-tab")
+                .forEach(function (tab) {
+
+                    tab.classList.remove("active");
+
+                });
+
+
+            document
+                .getElementById(tabId)
+                .classList.add("active");
+
+
+            event.currentTarget
+                .classList.add("active");
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
