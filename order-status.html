@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Trạng thái đơn hàng - Fashion Store</title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ================================
+         HEADER
+    ================================= -->
+
+    <header>
+
+        <div class="container navbar">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo"
+            >
+                FASHION<span>.</span>
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Sản phẩm
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="collection.html">
+                            Bộ sưu tập
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            Giới thiệu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Liên hệ
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- ICONS -->
+
+            <div class="icons">
+
+                <a href="#">
+                    🛒
+                </a>
+
+                <a href="user.html">
+                    👤
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================================
+         PAGE BANNER
+    ================================= -->
+
+    <section class="order-banner">
+
+        <div class="container">
+
+            <div class="order-banner-content">
+
+                <p>
+                    ORDER TRACKING
+                </p>
+
+                <h1>
+                    Trạng thái đơn hàng
+                </h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================
+         ORDER STATUS
+    ================================= -->
+
+    <main class="section order-status-section">
+
+        <div class="container">
+
+
+            <!-- ORDER HEADER -->
+
+            <div class="order-header-card">
+
+
+                <div>
+
+                    <span class="order-label">
+                        MÃ ĐƠN HÀNG
+                    </span>
+
+                    <h2>
+                        #FS00125
+                    </h2>
+
+                </div>
+
+
+                <div class="order-header-right">
+
+                    <span class="order-label">
+                        NGÀY ĐẶT
+                    </span>
+
+                    <strong>
+                        15/08/2026
+                    </strong>
+
+                </div>
+
+
+                <div class="order-current-status">
+
+                    <span class="status-dot"></span>
+
+                    Đang giao hàng
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 ORDER TIMELINE
+            ================================= -->
+
+            <div class="order-card">
+
+                <div class="order-card-title">
+
+                    <div>
+
+                        <p>
+                            ORDER STATUS
+                        </p>
+
+                        <h2>
+                            Theo dõi đơn hàng
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="order-timeline">
+
+
+                    <!-- STEP 1 -->
+
+                    <div class="timeline-item completed">
+
+                        <div class="timeline-icon">
+                            ✓
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Đặt hàng thành công
+                            </h3>
+
+                            <p>
+                                Đơn hàng của bạn đã được tiếp nhận.
+                            </p>
+
+                            <span>
+                                15/08/2026 - 09:32
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- STEP 2 -->
+
+                    <div class="timeline-item completed">
+
+                        <div class="timeline-icon">
+                            ✓
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Đã xác nhận
+                            </h3>
+
+                            <p>
+                                Người bán đã xác nhận đơn hàng.
+                            </p>
+
+                            <span>
+                                15/08/2026 - 10:15
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- STEP 3 -->
+
+                    <div class="timeline-item active">
+
+                        <div class="timeline-icon">
+                            🚚
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Đang giao hàng
+                            </h3>
+
+                            <p>
+                                Đơn hàng đang được vận chuyển đến bạn.
+                            </p>
+
+                            <span>
+                                16/08/2026 - 08:45
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- STEP 4 -->
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-icon">
+                            4
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Đã giao hàng
+                            </h3>
+
+                            <p>
+                                Đơn hàng sẽ được giao đến địa chỉ của bạn.
+                            </p>
+
+                            <span>
+                                Đang chờ cập nhật
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 ORDER INFORMATION
+            ================================= -->
+
+            <div class="order-grid">
+
+
+                <!-- PRODUCTS -->
+
+                <div class="order-card">
+
+                    <div class="order-card-title">
+
+                        <div>
+
+                            <p>
+                                ORDER DETAILS
+                            </p>
+
+                            <h2>
+                                Sản phẩm
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <div class="order-product">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=300&q=80"
+                            alt="Áo Hoodie"
+                        >
+
+
+                        <div class="order-product-info">
+
+                            <h3>
+                                Áo Hoodie Basic Premium
+                            </h3>
+
+                            <p>
+                                Màu: Đen
+                            </p>
+
+                            <p>
+                                Size: M
+                            </p>
+
+                            <p>
+                                Số lượng: 1
+                            </p>
+
+                        </div>
+
+
+                        <strong>
+                            590.000đ
+                        </strong>
+
+                    </div>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <div class="order-product">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=300&q=80"
+                            alt="Sneaker"
+                        >
+
+
+                        <div class="order-product-info">
+
+                            <h3>
+                                Sneaker Classic
+                            </h3>
+
+                            <p>
+                                Màu: Trắng
+                            </p>
+
+                            <p>
+                                Size: 42
+                            </p>
+
+                            <p>
+                                Số lượng: 1
+                            </p>
+
+                        </div>
+
+
+                        <strong>
+                            1.290.000đ
+                        </strong>
+
+                    </div>
+
+
+                    <!-- ORDER TOTAL -->
+
+                    <div class="order-summary">
+
+                        <div>
+
+                            <span>
+                                Tạm tính
+                            </span>
+
+                            <strong>
+                                1.880.000đ
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Phí vận chuyển
+                            </span>
+
+                            <strong>
+                                Miễn phí
+                            </strong>
+
+                        </div>
+
+
+                        <div class="total">
+
+                            <span>
+                                Tổng cộng
+                            </span>
+
+                            <strong>
+                                1.880.000đ
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SHIPPING INFORMATION -->
+
+                <div class="order-side">
+
+
+                    <!-- SHIPPING ADDRESS -->
+
+                    <div class="order-card">
+
+                        <div class="order-card-title">
+
+                            <div>
+
+                                <p>
+                                    SHIPPING
+                                </p>
+
+                                <h2>
+                                    Địa chỉ nhận hàng
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="shipping-info">
+
+                            <h3>
+                                Nguyễn Văn A
+                            </h3>
+
+                            <p>
+                                📞 0123 456 789
+                            </p>
+
+                            <p>
+                                📍 123 Đường Nguyễn Trãi,
+                                Thanh Xuân, Hà Nội
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PAYMENT -->
+
+                    <div class="order-card">
+
+                        <div class="order-card-title">
+
+                            <div>
+
+                                <p>
+                                    PAYMENT
+                                </p>
+
+                                <h2>
+                                    Thanh toán
+                                </h2>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="payment-info">
+
+                            <div>
+
+                                <span>
+                                    Phương thức
+                                </span>
+
+                                <strong>
+                                    Thanh toán khi nhận hàng
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Trạng thái
+                                </span>
+
+                                <strong class="payment-pending">
+                                    Chưa thanh toán
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================
+                 ACTIONS
+            ================================= -->
+
+            <div class="order-actions">
+
+                <a
+                    href="user.html"
+                    class="order-back-button"
+                >
+                    ← Quay lại tài khoản
+                </a>
+
+
+                <a
+                    href="products.html"
+                    class="order-shopping-button"
+                >
+                    Tiếp tục mua sắm
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer>
+
+        <div class="container footer">
+
+
+            <div>
+
+                <h3>
+                    Fashion Store
+                </h3>
+
+                <p>
+                    Thời trang dành cho mọi phong cách.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Liên hệ
+                </h3>
+
+                <p>
+                    Email: fashion@gmail.com
+                </p>
+
+                <p>
+                    Hotline: 0123 456 789
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Theo dõi
+                </h3>
+
+                <p>
+                    Facebook
+                </p>
+
+                <p>
+                    Instagram
+                </p>
+
+                <p>
+                    TikTok
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="copy">
+
+            © 2026 Fashion Store. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
